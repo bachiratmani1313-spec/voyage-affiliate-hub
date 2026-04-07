@@ -33,6 +33,34 @@
         <script async src="https://c121.travelpayouts.com/content?promo_id=7879&shmarker=704469&locale=fr&currency=eur&powered_by=true" charset="utf-8"></script>
         <script async src="https://c121.travelpayouts.com/content?promo_id=4054&shmarker=704469&locale=fr&currency=eur&powered_by=true" charset="utf-8"></script>
 
+        <!-- ═══════════════════════════════════════════════════════════════
+             GOOGLE ANALYTICS 4 — Vrax Voyage (Property: 518776106)
+             INSTRUCTIONS pour activer : 
+             1. Allez sur analytics.google.com
+             2. Admin → Flux de données → Sélectionnez votre flux web
+             3. Copiez l'ID de mesure (format G-XXXXXXXXXX)
+             4. Remplacez G-VOTREMESUREID ci-dessous par votre vrai ID
+             ═══════════════════════════════════════════════════════════════ -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VOTREMESUREID"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-VOTREMESUREID', {
+            page_title: document.title,
+            page_location: window.location.href,
+            send_page_view: true
+          });
+          // Tracking événements affiliés
+          window.trackAffiliate = function(partner, destination) {
+            gtag('event', 'affiliate_click', {
+              event_category: 'Affiliation',
+              event_label: partner,
+              value: destination
+            });
+          };
+        </script>
+
         <!-- Structured Data -->
         <script type="application/ld+json">
         {

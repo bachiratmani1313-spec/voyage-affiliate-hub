@@ -131,28 +131,94 @@ export default function BlogPostPage() {
           ))}
         </div>
 
-        {/* Like section */}
-        <div className="flex items-center justify-between py-6 mb-10" style={{ borderTop: "1px solid rgba(255,255,255,0.08)", borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
-          <div style={{ fontFamily: "'Outfit', sans-serif" }}>
-            <p className="text-sm text-gray-400">Cet article vous a été utile ?</p>
-            <p className="text-xs text-gray-500">Partagez votre avis en ajoutant un like !</p>
+        {/* Like + Share section */}
+        <div className="py-6 mb-10" style={{ borderTop: "1px solid rgba(255,255,255,0.08)", borderBottom: "1px solid rgba(255,255,255,0.08)" }}>
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            {/* Like */}
+            <div className="flex items-center gap-4">
+              <button
+                onClick={handleLike}
+                data-testid="post-like-btn"
+                disabled={liked}
+                className="flex items-center gap-2 px-5 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 hover:scale-105"
+                style={{
+                  background: liked ? "rgba(239,68,68,0.15)" : "rgba(239,68,68,0.1)",
+                  border: "1px solid rgba(239,68,68,0.4)",
+                  color: liked ? "#f87171" : "#fca5a5",
+                  fontFamily: "'Outfit', sans-serif",
+                  cursor: liked ? "not-allowed" : "pointer",
+                }}
+              >
+                <i className={`${liked ? "fas" : "far"} fa-heart`} />
+                {likes} J'aime
+              </button>
+              <span className="text-xs text-gray-500" style={{ fontFamily: "'Outfit', sans-serif" }}>
+                {liked ? "Merci pour votre like !" : "Cet article vous a plu ?"}
+              </span>
+            </div>
+
+            {/* Share buttons */}
+            <div className="flex items-center gap-2" data-testid="share-buttons">
+              <span className="text-xs text-gray-500 mr-1" style={{ fontFamily: "'Outfit', sans-serif" }}>Partager :</span>
+              <a
+                href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(window.location.href)}&via=VraxVoyage`}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="share-twitter"
+                title="Partager sur X (Twitter)"
+                className="w-9 h-9 rounded-full flex items-center justify-center text-white transition-all duration-300 hover:scale-110 hover:opacity-90"
+                style={{ background: "#000000" }}
+                onClick={() => window.gtag && window.gtag('event', 'share', { method: 'Twitter', content_type: 'article', item_id: post.slug })}
+              >
+                <i className="fab fa-x-twitter text-sm" />
+              </a>
+              <a
+                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="share-facebook"
+                title="Partager sur Facebook"
+                className="w-9 h-9 rounded-full flex items-center justify-center text-white transition-all duration-300 hover:scale-110 hover:opacity-90"
+                style={{ background: "#1877F2" }}
+                onClick={() => window.gtag && window.gtag('event', 'share', { method: 'Facebook', content_type: 'article', item_id: post.slug })}
+              >
+                <i className="fab fa-facebook-f text-sm" />
+              </a>
+              <a
+                href={`https://wa.me/?text=${encodeURIComponent(post.title + " — " + window.location.href)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="share-whatsapp"
+                title="Partager sur WhatsApp"
+                className="w-9 h-9 rounded-full flex items-center justify-center text-white transition-all duration-300 hover:scale-110 hover:opacity-90"
+                style={{ background: "#25D366" }}
+                onClick={() => window.gtag && window.gtag('event', 'share', { method: 'WhatsApp', content_type: 'article', item_id: post.slug })}
+              >
+                <i className="fab fa-whatsapp text-base" />
+              </a>
+              <a
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="share-linkedin"
+                title="Partager sur LinkedIn"
+                className="w-9 h-9 rounded-full flex items-center justify-center text-white transition-all duration-300 hover:scale-110 hover:opacity-90"
+                style={{ background: "#0A66C2" }}
+                onClick={() => window.gtag && window.gtag('event', 'share', { method: 'LinkedIn', content_type: 'article', item_id: post.slug })}
+              >
+                <i className="fab fa-linkedin-in text-sm" />
+              </a>
+              <button
+                onClick={() => { navigator.clipboard.writeText(window.location.href); }}
+                data-testid="share-copy"
+                title="Copier le lien"
+                className="w-9 h-9 rounded-full flex items-center justify-center text-gray-300 transition-all duration-300 hover:scale-110 hover:text-[#c9a84c]"
+                style={{ background: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.1)" }}
+              >
+                <i className="fas fa-link text-xs" />
+              </button>
+            </div>
           </div>
-          <button
-            onClick={handleLike}
-            data-testid="post-like-btn"
-            disabled={liked}
-            className="flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-sm transition-all duration-300"
-            style={{
-              background: liked ? "rgba(239,68,68,0.15)" : "rgba(239,68,68,0.1)",
-              border: "1px solid rgba(239,68,68,0.4)",
-              color: liked ? "#f87171" : "#fca5a5",
-              fontFamily: "'Outfit', sans-serif",
-              cursor: liked ? "not-allowed" : "pointer",
-            }}
-          >
-            <i className={`${liked ? "fas" : "far"} fa-heart`} />
-            {likes} J'aime
-          </button>
         </div>
 
         {/* Comments */}

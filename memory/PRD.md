@@ -50,13 +50,25 @@ Transformer le site comparateur de billets vrax-voyage.com (ancienne version HTM
 - [x] `POST /api/blog/posts/{id}/comments` - Ajouter commentaire
 - [x] `POST /api/contact` - Formulaire de contact
 
-### Blog - Articles créés
+### Blog - 9 Articles créés
 1. Les Maldives : Paradis des Océans Indiens
 2. Bali : L'Île Mystique des Dieux Indonésiens
 3. Tenerife : Le Soleil Éternel des Îles Canaries
 4. Marrakech : La Ville Rouge Envoûtante du Maroc
 5. Phuket : Le Joyau Tropical de la Thaïlande
 6. Cancún : Les Caraïbes Mexicaines en Toute Splendeur
+7. Santorin : L'Île aux Couchers de Soleil Légendaires *(nouveau)*
+8. Dubaï : L'Oasis de Luxe au Cœur du Désert Arabe *(nouveau)*
+9. La Réunion : L'Île Intense au Cœur de l'Océan Indien *(nouveau)*
+
+### Partage Social (sur chaque article)
+- [x] X (Twitter), Facebook, WhatsApp, LinkedIn, Copie du lien
+- [x] Tracking GA sur chaque clic de partage
+
+### Google Analytics GA4
+- [x] Script gtag.js intégré dans public/index.html
+- [x] Property ID: 518776106 — Placeholder `G-VOTREMESUREID` à remplacer
+- [x] Tracking affiliés (window.trackAffiliate) + partages sociaux
 
 ### Liens d'Affiliation Préservés
 - TravelPayouts : marker=704469 (vols, carte, hôtels)

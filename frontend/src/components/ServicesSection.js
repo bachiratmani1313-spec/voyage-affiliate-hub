@@ -70,6 +70,7 @@ export default function ServicesSection() {
                 target="_blank"
                 rel="noopener nofollow sponsored"
                 data-testid="car-rental-cta"
+                onClick={() => window.trackAffiliate && window.trackAffiliate('DiscoverCars', 'location-voiture')}
                 className="block text-center py-3 px-6 rounded-full font-semibold text-sm transition-all duration-300 hover:scale-105 hover:shadow-lg text-[#0a0f1a]"
                 style={{ background: "linear-gradient(135deg, #c9a84c, #f0c040)", fontFamily: "'Outfit', sans-serif", boxShadow: "0 2px 15px rgba(201,168,76,0.25)" }}
               >
@@ -128,6 +129,7 @@ export default function ServicesSection() {
                 target="_blank"
                 rel="noopener nofollow sponsored"
                 data-testid="vip-transfer-cta"
+                onClick={() => window.trackAffiliate && window.trackAffiliate('KiwiTaxi', 'transfert-vip')}
                 className="block text-center py-3 px-6 rounded-full font-semibold text-sm transition-all duration-300 hover:scale-105 hover:shadow-lg"
                 style={{ border: "1px solid rgba(201,168,76,0.6)", color: "#c9a84c", background: "rgba(201,168,76,0.08)", fontFamily: "'Outfit', sans-serif" }}
               >

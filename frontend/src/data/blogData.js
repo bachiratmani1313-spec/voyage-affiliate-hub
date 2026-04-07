@@ -130,5 +130,71 @@ La plongée et le snorkeling dans la mer des Caraïbes offrent des expériences 
 La gastronomie yucatèque est délicieuse : tacos de cochinita pibil (porc mariné en feuilles de bananier), ceviche frais, et les aguas frescas colorées. Les marchés locaux d'El Centro proposent des repas pour 3 à 5€.
 
 Conseils pratiques : Air France opère des vols directs Paris-Cancún dès 400€ aller. La saison idéale est de décembre à avril. Les all-inclusive offrent le meilleur rapport qualité-prix (dès 80€/nuit tout compris). Évitez septembre-octobre (saison des ouragans).`
+  },
+  {
+    id: "7", slug: "santorin-grece-couchers-soleil",
+    title: "Santorin : L'Île aux Couchers de Soleil Légendaires",
+    excerpt: "Maisons blanches aux dômes bleus suspendues au-dessus de la caldeira, vins locaux réputés et plages de sable volcanique noir. Santorin est la carte postale vivante de la Méditerranée.",
+    image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=800&q=80",
+    country: "Grèce", capital: "Athènes",
+    tags: ["Romantique", "Luxe", "Gastronomie", "Architecture"],
+    readTime: "5 min", date: "2025-04-05",
+    bestSeason: "Avril à Octobre", currency: "Euro (EUR)",
+    language: "Grec", timezone: "UTC+3",
+    temperature: "18–30°C", flightTime: "~3h30 depuis Paris",
+    likes: 63,
+    content: `Santorin, ou Théra de son nom officiel, est sans doute l'île la plus iconique de la Grèce — et peut-être de toute la Méditerranée. Née d'une éruption volcanique cataclysmique il y a 3 500 ans, son architecture en blanc et bleu accrochée aux falaises de la caldeira offre un spectacle à couper le souffle à chaque tournant de chemin.
+
+Oia, le village le plus célèbre de l'île, est mondialement connu pour ses couchers de soleil. Chaque soir, des centaines de visiteurs se rassemblent sur la terrasse du château pour assister au spectacle de l'astre solaire plongeant dans la mer Égée dans une explosion d'oranges et de roses. Un moment de magie pure, inscrit dans la mémoire de tous ceux qui l'ont vécu.
+
+Les plages de Santorin sont uniques au monde grâce au sable volcanique. La Plage Rouge (Kokkini Paralia) avec ses falaises de lave rouge sang, la Plage Noire (Perivolos) avec son sable d'obsidienne volcanique, et la Plage Blanche (Aspri Paralia) composent un triptyque chromatique exceptionnel. La Plage de Kamari est parfaite pour la baignade avec ses eaux cristallines.
+
+La gastronomie santorinoise bénéficie d'un terroir exceptionnel : la tomate cerise Ντοματίνι (Ntomatini) cultivée en agriculture volcanique, le vin Assyrtiko produit sur des vignes pluricentenaires en corbeilles pour résister au vent du Meltemi, et la fava de Santorin (purée de pois cassés). Les restaurants de falaise à Oia et Imerovigli proposent ces délices avec une vue incomparable.
+
+Conseils pratiques : Réservez votre hôtel au moins 6 mois à l'avance pour les mois de juillet et août. Privilégiez les hébergements côté caldeira pour les meilleures vues. Évitez les croisières en groupe qui envahissent Fira en haute saison. Les vols charter depuis Paris sont accessibles dès 100€ aller-retour en basse saison.`
+  },
+  {
+    id: "8", slug: "dubai-oasis-luxe-desert",
+    title: "Dubaï : L'Oasis de Luxe au Cœur du Désert Arabe",
+    excerpt: "Gratte-ciels record, plages immaculées du Golfe Persique, shopping de luxe et gastronomie internationale. Dubaï redéfinit les frontières du possible à chaque nouvelle construction.",
+    image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80",
+    country: "Émirats Arabes Unis", capital: "Abou Dabi",
+    tags: ["Luxe", "Shopping", "Architecture", "Famille"],
+    readTime: "6 min", date: "2025-04-20",
+    bestSeason: "Novembre à Mars", currency: "Dirham (AED)",
+    language: "Arabe / Anglais", timezone: "UTC+4",
+    temperature: "18–40°C", flightTime: "~7h depuis Paris",
+    likes: 58,
+    content: `Dubaï, cité-État de l'émirat du même nom aux Émirats Arabes Unis, est devenue en moins de 50 ans l'une des métropoles les plus spectaculaires de la planète. Sortie du désert à la force d'une vision et de pétrodollars, elle regroupe aujourd'hui le plus haut gratte-ciel du monde, les îles artificielles en forme de palmier, et un système de transport ultramoderne.
+
+Le Burj Khalifa, culminant à 828 mètres, reste le symbole absolu de l'ambition dubaiote. La vue depuis l'observatoire At the Top au 124e étage est vertigineuse : d'un côté le désert à perte de vue, de l'autre la baie de Dubaï scintillant sous le soleil. À ses pieds, la fontaine de Dubaï projette ses jets d'eau à 150 mètres de haut chaque soir en musique.
+
+Les plages de Dubaï, en bordure du Golfe Persique, offrent une eau chaude (28-30°C) et un sable blanc impeccable. La plage de Jumeirah, publique et gratuite, est parfaite pour les familles. La plage du Burj Al Arab, hôtel 7 étoiles en forme de voile, est l'une des plus photographiées au monde. Pour l'expérience ultime, les plages privées des hôtels de Palm Jumeirah combinent luxe et tranquillité.
+
+Le shopping à Dubaï atteint des sommets : le Dubai Mall (le plus grand centre commercial au monde avec 1 200 boutiques), le Mall of the Emirates avec sa piste de ski intérieure, et les souks traditionnels de l'or et des épices au cœur du vieux Dubaï. La Tax-Free Shopping permet des économies significatives sur les grandes marques.
+
+Conseils pratiques : La meilleure saison est de novembre à mars (20-28°C, idéal). Évitez juin-septembre (jusqu'à 45°C et humidité extrême). Respectez les codes vestimentaires dans les lieux publics. Les vols directs Paris-Dubaï avec Emirates et Air France sont très compétitifs (dès 250€ AR en promotion). Budget : 100 à 500€/jour selon standing.`
+  },
+  {
+    id: "9", slug: "la-reunion-ile-intense",
+    title: "La Réunion : L'Île Intense au Cœur de l'Océan Indien",
+    excerpt: "Volcans actifs, cirques majestueux, lagons turquoise et culture créole authentique. La Réunion, département français, conjugue l'aventure et le soleil sans quitter le territoire national.",
+    image: "https://images.unsplash.com/photo-1589197331516-4d84b72ebde3?auto=format&fit=crop&w=800&q=80",
+    country: "France (DOM)", capital: "Saint-Denis",
+    tags: ["Randonnée", "Nature", "Plage", "Famille"],
+    readTime: "6 min", date: "2025-05-08",
+    bestSeason: "Avril à Novembre", currency: "Euro (EUR)",
+    language: "Français / Créole", timezone: "UTC+4",
+    temperature: "22–30°C", flightTime: "~10h depuis Paris",
+    likes: 44,
+    content: `La Réunion, île volcanique de 2 512 km² perdue au cœur de l'Océan Indien, est l'une des destinations les plus spectaculaires de la planète — et la seule où vous pouvez admirer un volcan actif en activité, des lagons turquoise protégés et des cirques naturels classés UNESCO dans la même journée.
+
+Le Piton de la Fournaise, l'un des volcans les plus actifs au monde, est le symbole de l'île. Ses éruptions, fréquentes et accessibles au public (lors des phases calmes), permettent d'observer des coulées de lave en fusion à quelques mètres de distance — une expérience unique et inoubliable. Le spectacle nocturne d'une éruption vue depuis le Pas de Bellecombe est l'une des images les plus impressionnantes qu'un voyageur puisse ramener.
+
+Les trois cirques — Cilaos, Salazie et Mafate — sont des caldeiras géantes creusées par l'érosion, accessibles uniquement à pied ou en hélicoptère pour Mafate. Ces amphithéâtres naturels de basalte et de verdure tropicale, habités par des populations qui vivent sans routes, constituent un trésor de biodiversité et d'authenticité. Le Grand Raid, course de trail de 165 km traversant ces cirques, est considéré comme l'une des courses les plus difficiles au monde.
+
+La gastronomie réunionnaise est une fusion harmonieuse des influences malgache, indienne, africaine, française et chinoise. Le carry (cari) poulet boucané, les samoussas créoles, le rougail saucisses et la tarte au coco de Julie sont des incontournables. Les rhums arrangés de La Réunion, infusés avec des épices et des fruits tropicaux, sont parmi les meilleurs au monde.
+
+Conseils pratiques : Vols directs Paris-Saint-Denis avec Air Austral et Corsair (dès 350€ aller). Pas de visa nécessaire (DOM français). Louez une voiture pour explorer l'île librement. Évitez janvier-mars (cyclones). La route du volcan et les sentiers des cirques nécessitent une bonne condition physique. Budget moyen : 80 à 150€/jour.`
   }
 ];

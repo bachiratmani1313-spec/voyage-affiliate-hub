@@ -140,6 +140,48 @@ BLOG_POSTS = [
         "temperature": "25–34°C", "flightTime": "~11h depuis Paris",
         "likes": 35,
         "content": "Cancún, joyau des Caraïbes mexicaines, est une destination qui conjugue paradis balnéaire, richesse archéologique et diversité culturelle. Nichée sur la côte nord-est du Yucatán, la ville offre 25 km de plages de sable blanc baignées par la mer des Caraïbes d'un bleu turquoise incomparable.\n\nLa Zona Hotelera de Cancún est une île-barrière artificielle qui concentre les grands hôtels all-inclusive, les centres commerciaux et la vie nocturne avec des clubs comme Coco Bongo. Mais la vraie âme de Cancún se trouve dans El Centro, le centre-ville authentique, avec ses marchés locaux, restaurants de cuisine yucatèque et atmosphère mexicaine authentique.\n\nLa Riviera Maya, qui s'étend de Cancún à Tulum, est parsemée de trésors : les ruines mayas de Tulum perchées au-dessus de la mer, les cénotes (gouffres d'eau douce sacrés) de Cenote Dos Ojos et X'Caret, le parc naturel de Sian Ka'an inscrit à l'UNESCO. Playa del Carmen, à 45 minutes au sud, est une alternative plus bohème et authentique.\n\nLa plongée et le snorkeling dans la mer des Caraïbes offrent des expériences inoubliables : la réserve de biosphère de Sian Ka'an, le récif corallien de Mesoamerican Reef (2e plus grand au monde), et la Vallée des Cénotes avec ses galeries sous-marines habitées par des crocodiles et des raies.\n\nConseils pratiques : Air France opère des vols directs Paris-Cancún dès 400€ aller. La saison idéale est de décembre à avril. Les all-inclusive offrent le meilleur rapport qualité-prix (dès 80€/nuit tout compris). Évitez septembre-octobre (saison des ouragans)."
+    },
+    {
+        "id": "7", "slug": "santorin-grece-couchers-soleil",
+        "title": "Santorin : L'Île aux Couchers de Soleil Légendaires",
+        "excerpt": "Maisons blanches aux dômes bleus, vins locaux réputés et plages de sable volcanique noir. Santorin est la carte postale vivante de la Méditerranée.",
+        "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=800&q=80",
+        "country": "Grèce", "capital": "Athènes",
+        "tags": ["Romantique", "Luxe", "Gastronomie", "Architecture"],
+        "readTime": "5 min", "date": "2025-04-05",
+        "bestSeason": "Avril à Octobre", "currency": "Euro (EUR)",
+        "language": "Grec", "timezone": "UTC+3",
+        "temperature": "18–30°C", "flightTime": "~3h30 depuis Paris",
+        "likes": 63,
+        "content": "Santorin, née d'une éruption volcanique il y a 3 500 ans, offre une architecture en blanc et bleu accrochée aux falaises de la caldeira — l'une des images les plus iconiques du monde.\n\nOia est mondialement connue pour ses couchers de soleil. Chaque soir, des centaines de visiteurs se rassemblent sur la terrasse du château pour assister au spectacle de l'astre solaire plongeant dans la mer Égée dans une explosion d'oranges et de roses.\n\nLes plages sont uniques grâce au sable volcanique : la Plage Rouge (Kokkini Paralia), la Plage Noire (Perivolos) à l'obsidienne volcanique, et la Plage Blanche composent un triptyque chromatique exceptionnel.\n\nLa gastronomie santorinoise est exceptionnelle : vin Assyrtiko produit sur des vignes pluricentenaires, tomate cerise volcanique et fava de Santorin. Conseils : réservez 6 mois à l'avance. Vols Paris-Santorin dès 100€ AR en basse saison."
+    },
+    {
+        "id": "8", "slug": "dubai-oasis-luxe-desert",
+        "title": "Dubaï : L'Oasis de Luxe au Cœur du Désert Arabe",
+        "excerpt": "Gratte-ciels records, plages du Golfe Persique, shopping de luxe et gastronomie internationale. Dubaï redéfinit les frontières du possible à chaque construction.",
+        "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=800&q=80",
+        "country": "Émirats Arabes Unis", "capital": "Abou Dabi",
+        "tags": ["Luxe", "Shopping", "Architecture", "Famille"],
+        "readTime": "6 min", "date": "2025-04-20",
+        "bestSeason": "Novembre à Mars", "currency": "Dirham (AED)",
+        "language": "Arabe / Anglais", "timezone": "UTC+4",
+        "temperature": "18–40°C", "flightTime": "~7h depuis Paris",
+        "likes": 58,
+        "content": "Dubaï, sortie du désert en moins de 50 ans, regroupe le plus haut gratte-ciel du monde (Burj Khalifa, 828m), les îles artificielles en forme de palmier, et un système de transport ultramoderne.\n\nLe Burj Khalifa offre une vue vertigineuse depuis l'observatoire At the Top au 124e étage. À ses pieds, la fontaine de Dubaï projette ses jets à 150 mètres de haut chaque soir en musique.\n\nLes plages du Golfe Persique (eau à 28-30°C) et le shopping Tax-Free au Dubai Mall (1 200 boutiques, le plus grand centre commercial au monde) en font une destination idéale. La piste de ski intérieure du Mall of the Emirates est une attraction unique en son genre.\n\nConseils pratiques : Vols Paris-Dubaï dès 250€ AR avec Emirates ou Air France. Meilleure saison : novembre à mars (20-28°C). Respectez les codes vestimentaires dans les lieux publics. Budget : 100 à 500€/jour selon standing."
+    },
+    {
+        "id": "9", "slug": "la-reunion-ile-intense",
+        "title": "La Réunion : L'Île Intense au Cœur de l'Océan Indien",
+        "excerpt": "Volcans actifs, cirques majestueux, lagons turquoise et culture créole authentique. La Réunion conjugue aventure et soleil sans quitter le territoire français.",
+        "image": "https://images.unsplash.com/photo-1589197331516-4d84b72ebde3?auto=format&fit=crop&w=800&q=80",
+        "country": "France (DOM)", "capital": "Saint-Denis",
+        "tags": ["Randonnée", "Nature", "Plage", "Famille"],
+        "readTime": "6 min", "date": "2025-05-08",
+        "bestSeason": "Avril à Novembre", "currency": "Euro (EUR)",
+        "language": "Français / Créole", "timezone": "UTC+4",
+        "temperature": "22–30°C", "flightTime": "~10h depuis Paris",
+        "likes": 44,
+        "content": "La Réunion, île volcanique de 2 512 km² dans l'Océan Indien, est l'une des destinations les plus spectaculaires de la planète — volcans actifs, cirques UNESCO et lagons turquoise dans la même journée.\n\nLe Piton de la Fournaise, l'un des volcans les plus actifs au monde, permet d'observer des coulées de lave en fusion lors des phases calmes — une expérience unique et inoubliable que peu de destinations au monde peuvent offrir.\n\nLes trois cirques (Cilaos, Salazie, Mafate) sont des caldeiras géantes habitées par des populations sans routes, véritables trésors de biodiversité. Le Grand Raid (165 km à travers l'île) est considéré parmi les courses de trail les plus difficiles au monde.\n\nConseils pratiques : Vols Paris-Saint-Denis dès 350€ avec Air Austral ou Corsair. Pas de visa nécessaire (DOM français). Louez une voiture sur place. Évitez janvier-mars (cyclones). La gastronomie créole (carry boucané, rougail saucisses) est un voyage en soi."
     }
 ]
 
@@ -148,10 +190,12 @@ BLOG_POSTS = [
 
 @app.on_event("startup")
 async def seed_database():
-    count = await db.blog_posts.count_documents({})
-    if count == 0:
-        await db.blog_posts.insert_many(BLOG_POSTS)
-        logger.info("Blog posts seeded successfully")
+    # Upsert each post so new articles are added without wiping existing likes/comments
+    for post in BLOG_POSTS:
+        existing = await db.blog_posts.find_one({"id": post["id"]})
+        if not existing:
+            await db.blog_posts.insert_one(dict(post))
+    logger.info("Blog posts upsert complete")
 
 
 # ── Routes ───────────────────────────────────────────────────────────────────
