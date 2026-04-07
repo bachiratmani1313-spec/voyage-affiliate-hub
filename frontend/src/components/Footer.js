@@ -158,6 +158,32 @@ export default function Footer() {
         </div>
       </div>
 
+      {/* Emergent referral banner */}
+      <div style={{ borderTop: "1px solid rgba(201,168,76,0.1)", background: "rgba(201,168,76,0.04)" }}>
+        <div className="max-w-7xl mx-auto px-6 lg:px-12 py-3 flex flex-col sm:flex-row items-center justify-center gap-3">
+          <p className="text-xs text-gray-400 text-center" style={{ fontFamily: "'Outfit', sans-serif" }}>
+            <i className="fas fa-rocket text-[#c9a84c] mr-1" />
+            Vous souhaitez créer votre propre site web ou application ?
+          </p>
+          <a
+            href="https://app.emergent.sh/register?ref=bach300594"
+            target="_blank"
+            rel="noopener sponsored"
+            data-testid="emergent-referral-link"
+            className="flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold transition-all duration-300 hover:scale-105 hover:shadow-md flex-shrink-0"
+            style={{
+              background: "linear-gradient(135deg,#c9a84c,#f0c040)",
+              color: "#0a0f1a",
+              fontFamily: "'Outfit', sans-serif",
+              boxShadow: "0 2px 10px rgba(201,168,76,0.2)",
+            }}
+          >
+            <i className="fas fa-external-link-alt text-[10px]" />
+            Créer mon site sur Emergent
+          </a>
+        </div>
+      </div>
+
       {/* Bottom bar */}
       <div style={{ borderTop: "1px solid rgba(255,255,255,0.05)" }}>
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-4 flex flex-col md:flex-row items-center justify-between gap-2">
