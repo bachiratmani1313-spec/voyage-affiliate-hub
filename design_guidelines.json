@@ -1,0 +1,98 @@
+{
+  "theme": "dark",
+  "archetype": "5",
+  "archetype_name": "Jewel & Luxury",
+  "brand": {
+    "name": "Vrax Voyage",
+    "owner": "Atmani Bachir",
+    "tone": "Luxurious, cinematic, exclusive but accessible (premium deals)",
+    "target_audience": "Francophone travelers seeking premium flight comparison, VIP transfers, and high-end sunny destinations."
+  },
+  "colors": {
+    "background": {
+      "main": "#0a0f1a",
+      "surface": "#121826",
+      "glass": "rgba(18, 24, 38, 0.4)"
+    },
+    "text": {
+      "primary": "#ffffff",
+      "secondary": "#a0aab2",
+      "muted": "#6a7682",
+      "inverse": "#0a0f1a"
+    },
+    "brand": {
+      "primary": "#c9a84c",
+      "primary_hover": "#f0c040",
+      "primary_muted": "rgba(201, 168, 76, 0.15)",
+      "secondary": "#f0c040"
+    },
+    "borders": {
+      "default": "rgba(255, 255, 255, 0.1)",
+      "accent": "rgba(201, 168, 76, 0.3)"
+    }
+  },
+  "typography": {
+    "headings": {
+      "font_family": "'Cormorant Garamond', serif",
+      "weights": ["400", "600"],
+      "letter_spacing": "tracking-tight"
+    },
+    "body": {
+      "font_family": "'Outfit', sans-serif",
+      "weights": ["300", "400", "500"]
+    },
+    "sizes": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl",
+      "h3": "text-xl sm:text-2xl",
+      "h4": "text-lg sm:text-xl",
+      "body": "text-base",
+      "small": "text-sm"
+    }
+  },
+  "layout_and_spacing": {
+    "philosophy": "Generous spacing. Allow components to breathe, use massive paddings on sections (py-24 to py-32).",
+    "grid": "Bento Grid Protocol. Asymmetric and elegant card placements.",
+    "container_padding": "px-6 md:px-12 lg:px-24"
+  },
+  "surfaces_and_micro_themes": {
+    "header": "Crystal Glass: backdrop-blur-xl bg-[#0a0f1a]/60 border-b border-white/10.",
+    "cards": "Neumorphism mix: Solid surface #121826 with 1px border-white/5, subtle inner shadows, and hover border-color shift to gold (border-[#c9a84c]/50).",
+    "widgets": "Widgets (TravelPayouts/KiwiTaxi) must be housed in elegant frames with subtle glowing borders to integrate seamlessly."
+  },
+  "motion_and_interactions": {
+    "hover_states": "Cards lift slightly (-translate-y-1) and cast a soft gold ambient shadow (shadow-[0_0_15px_rgba(201,168,76,0.15)]).",
+    "buttons": "Primary buttons: Gold background, inverse text (black), slow scaling on hover (scale-105).",
+    "page_transitions": "Smooth fade-ins and staggered list animations."
+  },
+  "media": {
+    "image_urls": {
+      "hero_bg": {
+        "url": "https://images.unsplash.com/photo-1686249597832-7654b09d6301?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBhaXJwbGFuZSUyMHdpbmRvdyUyMHN1bnNldHxlbnwwfHx8fDE3NzU1NjkxMjN8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Luxury airplane window view at sunset. To be used with heavy #0a0f1a gradient overlay."
+      },
+      "blog_destination_maldives": {
+        "url": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwyfHxtYWxkaXZlcyUyMHJlc29ydCUyMHN1bm55fGVufDB8fHx8MTc3NTU2OTEyM3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Sunny Maldives destination for the blog/destinations section."
+      },
+      "vip_transfers": {
+        "url": "https://images.unsplash.com/photo-1758384076382-21f6587e1048?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBibGFjayUyMGNoYXVmZmV1ciUyMGNhcnxlbnwwfHx8fDE3NzU1NjkxMjN8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Luxury black chauffeur car for KiwiTaxi section."
+      }
+    },
+    "icons": {
+      "library": "lucide-react",
+      "style": "Thin, stroke-width 1.5, colored in gold (#c9a84c) for accents."
+    }
+  },
+  "components_instructions": {
+    "general": "Use HTML/Tailwind for layouts. Use customized Shadcn for interactives (Forms, Dropdowns). Include data-testid attributes on all interactive elements.",
+    "affiliate_widgets": "Render TravelPayouts (marker=704469), KiwiTaxi, and Amazon (tag=vrax-21) iframes/scripts safely using React's dangerouslySetInnerHTML inside dark styled container divs.",
+    "blog_system": "Build a static or mocked content grid for sunny destinations with elegant cards, implementing a custom likes/comments UI layout.",
+    "legal_pages": "Mentions légales, CGU, Privacy Policy, and Disclosure Affiliation should be clean typographic pages using the Outfit font, with standard reading widths (max-w-3xl)."
+  },
+  "tech_stack": {
+    "frontend": "React (JS), Tailwind CSS, Shadcn/UI primitives, Framer Motion (for transitions)",
+    "backend": "FastAPI (Python), MongoDB (for likes/comments/contact form)"
+  }
+}
