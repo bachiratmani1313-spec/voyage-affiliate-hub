@@ -1,27 +1,59 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="description" content="A product of emergent.sh" />
+        <meta name="theme-color" content="#0a0f1a" />
+        <meta name="description" content="Vrax Voyage - Comparateur de billets d'avion pas chers, location de voitures, transferts VIP et boutique voyage. Trouvez les meilleures offres avec Vrax Voyage." />
+        <meta name="keywords" content="billet avion pas cher, comparateur vol, location voiture, transfert aéroport, voyage, vol pas cher, Vrax Voyage" />
+        <meta name="author" content="Atmani Bachir" />
+        <meta name="robots" content="index, follow" />
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="Vrax Voyage | L'Excellence du Voyage" />
+        <meta property="og:description" content="Comparateur de vols, location de voitures et transferts VIP. Voyagez en première classe au meilleur prix." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://vrax-voyage.com" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1686249597832-7654b09d6301?w=1200&q=80" />
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Vrax Voyage | L'Excellence du Voyage" />
+        <meta name="twitter:description" content="Comparateur de vols, location de voitures et transferts VIP." />
+
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet" />
-        <!--
-        manifest.json provides metadata used when your web app is installed on a
-        user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-        -->
-        <!--
-        Notice the use of %PUBLIC_URL% in the tags above.
-        It will be replaced with the URL of the `public` folder during the build.
-        Only files inside the `public` folder can be referenced from the HTML.
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
-        Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-        work correctly both with client-side routing and a non-root public URL.
-        Learn how to configure a non-root public URL by running `npm run build`.
-        -->
-        <title>Emergent | Fullstack App</title>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+        <!-- TravelPayouts Cascoon Widgets -->
+        <script async src="https://c121.travelpayouts.com/content?promo_id=7879&shmarker=704469&locale=fr&currency=eur&powered_by=true" charset="utf-8"></script>
+        <script async src="https://c121.travelpayouts.com/content?promo_id=4054&shmarker=704469&locale=fr&currency=eur&powered_by=true" charset="utf-8"></script>
+
+        <!-- Structured Data -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Vrax Voyage",
+          "url": "https://vrax-voyage.com",
+          "description": "Comparateur de billets d'avion, location de voitures et transferts VIP",
+          "author": {
+            "@type": "Person",
+            "name": "Atmani Bachir"
+          },
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://vrax-voyage.com/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+        </script>
+
+        <title>Vrax Voyage | L'Excellence du Voyage</title>
         <script>window.addEventListener("error",function(e){if(e.error instanceof DOMException&&e.error.name==="DataCloneError"&&e.message&&e.message.includes("PerformanceServerTiming")){e.stopImmediatePropagation();e.preventDefault()}},true);</script>
         <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
     </head>
