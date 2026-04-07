@@ -181,7 +181,49 @@ BLOG_POSTS = [
         "language": "Français / Créole", "timezone": "UTC+4",
         "temperature": "22–30°C", "flightTime": "~10h depuis Paris",
         "likes": 44,
-        "content": "La Réunion, île volcanique de 2 512 km² dans l'Océan Indien, est l'une des destinations les plus spectaculaires de la planète — volcans actifs, cirques UNESCO et lagons turquoise dans la même journée.\n\nLe Piton de la Fournaise, l'un des volcans les plus actifs au monde, permet d'observer des coulées de lave en fusion lors des phases calmes — une expérience unique et inoubliable que peu de destinations au monde peuvent offrir.\n\nLes trois cirques (Cilaos, Salazie, Mafate) sont des caldeiras géantes habitées par des populations sans routes, véritables trésors de biodiversité. Le Grand Raid (165 km à travers l'île) est considéré parmi les courses de trail les plus difficiles au monde.\n\nConseils pratiques : Vols Paris-Saint-Denis dès 350€ avec Air Austral ou Corsair. Pas de visa nécessaire (DOM français). Louez une voiture sur place. Évitez janvier-mars (cyclones). La gastronomie créole (carry boucané, rougail saucisses) est un voyage en soi."
+        "content": "La Réunion, île volcanique de 2 512 km² dans l'Océan Indien, est l'une des destinations les plus spectaculaires de la planète.\n\nLe Piton de la Fournaise, l'un des volcans les plus actifs au monde, permet d'observer des coulées de lave en fusion lors des phases calmes.\n\nLes trois cirques (Cilaos, Salazie, Mafate) sont des caldeiras géantes habitées par des populations sans routes, véritables trésors de biodiversité.\n\nConseils pratiques : Vols Paris-Saint-Denis dès 350€ avec Air Austral ou Corsair. Pas de visa nécessaire (DOM français). Évitez janvier-mars (cyclones)."
+    },
+    {
+        "id": "10", "slug": "bora-bora-polynesie-paradis",
+        "title": "Bora Bora : Le Joyau de la Polynésie Française",
+        "excerpt": "Le lagon le plus célèbre du monde, des eaux d'un turquoise irréel et des villas sur pilotis de rêve. Bora Bora est tout simplement la plus belle île du monde.",
+        "image": "https://images.unsplash.com/photo-1589860518371-6f2a4d7c5b4a?auto=format&fit=crop&w=800&q=80",
+        "country": "Polynésie Française", "capital": "Papeete (Tahiti)",
+        "tags": ["Luxe", "Plage", "Plongée", "Lune de miel"],
+        "readTime": "5 min", "date": "2025-06-02",
+        "bestSeason": "Mai à Octobre", "currency": "Franc CFP (XPF)",
+        "language": "Français / Tahitien", "timezone": "UTC-10",
+        "temperature": "24–31°C", "flightTime": "~22h depuis Paris",
+        "likes": 87,
+        "content": "Bora Bora, surnommée 'la Perle du Pacifique', est entourée d'un lagon aux couleurs impossibles — turquoise, émeraude, saphir — universellement reconnu comme le plus beau au monde.\n\nLe Mont Otemanu (727m) domine l'île de sa silhouette imposante. Les bungalows sur pilotis surplombant le lagon, proposés par des établissements comme le Four Seasons et l'Intercontinental Thalasso, offrent une expérience de luxe absolu avec accès direct à l'eau depuis votre chambre.\n\nLe snorkeling dans le lagon révèle raies pastenagues apprivoisées, requins de récif inoffensifs et tortues de mer. La culture polynésienne (Ori Tahiti, ukulélé, nacre noire) enrichit chaque journée.\n\nConseils pratiques : Vols via Los Angeles ou Auckland (Air Tahiti Nui). Budget minimum 500€/nuit en bungalow. Réservez 12 à 18 mois à l'avance. Saison sèche mai-octobre idéale."
+    },
+    {
+        "id": "11", "slug": "seville-andalousie-soleil",
+        "title": "Séville : La Capitale Enflammée de l'Andalousie",
+        "excerpt": "Flamenco, tapas, orangers en fleur et architecture mauresque époustouflante. Séville brûle sous le soleil andalou et incendie les cœurs de tous ses visiteurs.",
+        "image": "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=800&q=80",
+        "country": "Espagne (Andalousie)", "capital": "Madrid",
+        "tags": ["Culture", "Gastronomie", "Architecture", "Romantique"],
+        "readTime": "5 min", "date": "2025-06-18",
+        "bestSeason": "Mars à Mai / Sept à Nov", "currency": "Euro (EUR)",
+        "language": "Espagnol", "timezone": "UTC+1",
+        "temperature": "15–38°C", "flightTime": "~2h30 depuis Paris",
+        "likes": 52,
+        "content": "Séville, capitale de l'Andalousie, est l'une des cités les plus romantiques et passionnées d'Europe. Ses ruelles parfumées aux orangers amers et sa tradition de flamenco en font une destination unique.\n\nLa cathédrale de Séville (3e plus grande au monde) abrite le tombeau de Christophe Colomb. L'Alcázar, palais royal encore utilisé par la famille royale espagnole, est un chef-d'œuvre mudéjare — ses jardins et ses patios ont servi de décor à Game of Thrones.\n\nLa Plaza de España et le quartier de Triana (berceau du flamenco) sont incontournables. La gastronomie sévillane — tapas, jamón ibérico Pata Negra, salmorejo — est un festival permanent.\n\nConseils pratiques : Évitez juillet-août (45°C). Vols Paris-Séville dès 50€. La Semana Santa (Pâques) et la Feria de Abril sont les temps forts de l'année."
+    },
+    {
+        "id": "12", "slug": "sri-lanka-perle-ocean-indien",
+        "title": "Sri Lanka : La Perle Étincelante de l'Océan Indien",
+        "excerpt": "Temples bouddhistes millénaires, éléphants sauvages, plantations de thé et plages idylliques. Le Sri Lanka offre une densité de merveilles sans équivalent en Asie.",
+        "image": "https://images.unsplash.com/photo-1606924709803-8bc3c3ee1d95?auto=format&fit=crop&w=800&q=80",
+        "country": "Sri Lanka", "capital": "Sri Jayawardenepura Kotte",
+        "tags": ["Culture", "Nature", "Plage", "Randonnée"],
+        "readTime": "6 min", "date": "2025-07-05",
+        "bestSeason": "Décembre à Mars", "currency": "Roupie (LKR)",
+        "language": "Cingalais / Tamoul", "timezone": "UTC+5:30",
+        "temperature": "27–34°C", "flightTime": "~11h depuis Paris",
+        "likes": 39,
+        "content": "Le Sri Lanka condense en 65 000 km² des paysages extraordinaires : temples millénaires UNESCO, safaris avec éléphants et léopards, plantations de thé dans des montagnes brumeuses, et des plages dignes des Maldives.\n\nSigiriya, le 'Rocher du Lion', est un palais-forteresse du 5e siècle juché au sommet d'un monolithe de 200 mètres avec des fresques millénaires et des jardins aquatiques — l'un des sites archéologiques les plus impressionnants d'Asie.\n\nLe Temple de la Dent à Kandy, le safari léopards au Parc de Yala, et l'observation des baleines bleues à Mirissa (décembre-avril) complètent une expérience de voyage unique.\n\nConseils pratiques : Vols Paris-Colombo dès 350€ AR (SriLankan Airlines, Emirates). Meilleure saison côte ouest : décembre-mars. Budget très accessible : 40 à 80€/jour. Pas de visa difficile à obtenir (e-visa en ligne)."
     }
 ]
 

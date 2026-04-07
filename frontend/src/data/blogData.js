@@ -196,5 +196,71 @@ Les trois cirques — Cilaos, Salazie et Mafate — sont des caldeiras géantes 
 La gastronomie réunionnaise est une fusion harmonieuse des influences malgache, indienne, africaine, française et chinoise. Le carry (cari) poulet boucané, les samoussas créoles, le rougail saucisses et la tarte au coco de Julie sont des incontournables. Les rhums arrangés de La Réunion, infusés avec des épices et des fruits tropicaux, sont parmi les meilleurs au monde.
 
 Conseils pratiques : Vols directs Paris-Saint-Denis avec Air Austral et Corsair (dès 350€ aller). Pas de visa nécessaire (DOM français). Louez une voiture pour explorer l'île librement. Évitez janvier-mars (cyclones). La route du volcan et les sentiers des cirques nécessitent une bonne condition physique. Budget moyen : 80 à 150€/jour.`
+  },
+  {
+    id: "10", slug: "bora-bora-polynesie-paradis",
+    title: "Bora Bora : Le Joyau de la Polynésie Française",
+    excerpt: "Le lagon le plus célèbre du monde, des eaux d'un turquoise irréel et des villas sur pilotis de rêve. Bora Bora est tout simplement la plus belle île du monde.",
+    image: "https://images.unsplash.com/photo-1589860518371-6f2a4d7c5b4a?auto=format&fit=crop&w=800&q=80",
+    country: "Polynésie Française", capital: "Papeete (Tahiti)",
+    tags: ["Luxe", "Plage", "Plongée", "Lune de miel"],
+    readTime: "5 min", date: "2025-06-02",
+    bestSeason: "Mai à Octobre", currency: "Franc CFP (XPF)",
+    language: "Français / Tahitien", timezone: "UTC-10",
+    temperature: "24–31°C", flightTime: "~22h depuis Paris",
+    likes: 87,
+    content: `Bora Bora, surnommée "la Perle du Pacifique", est entourée d'un lagon aux couleurs impossibles — turquoise, émeraude, saphir — universellement reconnu comme le plus beau au monde. Le Mont Otemanu (727m) domine l'île de sa silhouette volcanique majestueuse.
+
+Les bungalows sur pilotis surplombant le lagon, proposés par des établissements comme le Four Seasons, l'Intercontinental Thalasso et le St. Regis, offrent une expérience de luxe absolu avec accès direct à l'eau depuis votre chambre. Nager avec les raies pastenagues apprivoisées et les requins de récif inoffensifs directement depuis votre terrasse est une expérience inoubliable.
+
+Le snorkeling dans le lagon révèle une faune marine exceptionnelle : tortues vertes, dauphins, napoléons géants et nuées de poissons tropicaux multicolores. Les excursions en pirogue à voile (va'a) au coucher du soleil, avec le Mont Otemanu en arrière-plan, sont parmi les moments les plus romantiques que la planète puisse offrir.
+
+La culture polynésienne (danse Ori Tahiti, musique ukulélé, artisanat de nacre noire) enrichit chaque journée. La cuisine locale mêle influences françaises et produits du Pacifique : poisson cru au lait de coco (ia ota), langoustes grillées et fruits tropicaux exotiques.
+
+Conseils pratiques : Vols via Los Angeles ou Auckland (Air Tahiti Nui, Air France). Budget minimum 500€/nuit en bungalow. Réservez 12 à 18 mois à l'avance. La saison sèche (mai-octobre) est idéale pour la visibilité sous-marine. Un rêve qui vaut chaque centime.`
+  },
+  {
+    id: "11", slug: "seville-andalousie-soleil",
+    title: "Séville : La Capitale Enflammée de l'Andalousie",
+    excerpt: "Flamenco, tapas, orangers en fleur et architecture mauresque époustouflante. Séville brûle sous le soleil andalou et incendie les cœurs de tous ses visiteurs.",
+    image: "https://images.unsplash.com/photo-1543783207-ec64e4d95325?auto=format&fit=crop&w=800&q=80",
+    country: "Espagne (Andalousie)", capital: "Madrid",
+    tags: ["Culture", "Gastronomie", "Architecture", "Romantique"],
+    readTime: "5 min", date: "2025-06-18",
+    bestSeason: "Mars à Mai / Sept à Nov", currency: "Euro (EUR)",
+    language: "Espagnol", timezone: "UTC+1",
+    temperature: "15–38°C", flightTime: "~2h30 depuis Paris",
+    likes: 52,
+    content: `Séville, capitale de l'Andalousie et quatrième ville d'Espagne, est l'une des cités les plus romantiques et passionnées d'Europe. Ses ruelles parfumées aux orangers amers, ses palais mauresques ornés de mosaïques et sa tradition de flamenco ancestrale en font une destination de caractère unique.
+
+La cathédrale de Séville, troisième plus grande cathédrale au monde, abrite le tombeau de Christophe Colomb. La Giralda (ancien minaret almohade de 94 mètres) offre une vue panoramique sur toute la ville. L'Alcázar de Séville, palais royal encore utilisé par la famille royale espagnole, est l'un des joyaux de l'architecture mudéjare — ses jardins extraordinaires ont servi de décor à Game of Thrones.
+
+La Plaza de España, construite pour l'Exposition Ibéro-Américaine de 1929, est un chef-d'œuvre architectural semi-circulaire en briques et azulejos. Le quartier de Triana, de l'autre côté du Guadalquivir, est le berceau du flamenco sévillan — ses tablaos proposent des spectacles authentiques à faire frissonner.
+
+La gastronomie sévillane est un festival permanent : tapas de jamón ibérico Pata Negra, gambas al ajillo, salmorejo (soupe froide de tomates andalouse), et les pâtisseries conventuelles (polvorones, tocino de cielo).
+
+Conseils pratiques : Évitez absolument juillet-août (jusqu'à 45°C). La Semana Santa (Pâques) et la Feria de Abril sont les temps forts mais bondés. Vols Paris-Séville dès 50€. Le centre historique se visite aisément à pied.`
+  },
+  {
+    id: "12", slug: "sri-lanka-perle-ocean-indien",
+    title: "Sri Lanka : La Perle Étincelante de l'Océan Indien",
+    excerpt: "Temples bouddhistes millénaires, éléphants sauvages, plantations de thé et plages idylliques. Le Sri Lanka offre une densité de merveilles sans équivalent en Asie du Sud.",
+    image: "https://images.unsplash.com/photo-1606924709803-8bc3c3ee1d95?auto=format&fit=crop&w=800&q=80",
+    country: "Sri Lanka", capital: "Sri Jayawardenepura Kotte",
+    tags: ["Culture", "Nature", "Plage", "Randonnée"],
+    readTime: "6 min", date: "2025-07-05",
+    bestSeason: "Décembre à Mars", currency: "Roupie (LKR)",
+    language: "Cingalais / Tamoul", timezone: "UTC+5:30",
+    temperature: "27–34°C", flightTime: "~11h depuis Paris",
+    likes: 39,
+    content: `Le Sri Lanka condense en 65 000 km² une densité de merveilles exceptionnelle : temples millénaires classés UNESCO, safaris avec éléphants et léopards, plantations de thé dans des montagnes brumeuses, et des plages dignes des Maldives — le tout à des prix très accessibles.
+
+Sigiriya, le "Rocher du Lion", est un palais-forteresse du 5e siècle juché au sommet d'un monolithe de 200 mètres, avec des fresques millénaires préservées et des jardins en eau sophistiqués — l'un des sites archéologiques les plus impressionnants d'Asie. Anuradhapura et Polonnaruwa, anciennes capitales royales, étalent leurs stûpas bouddhistes parmi des ruines envahies par la jungle.
+
+Kandy, cœur culturel et spirituel de l'île, abrite le Temple de la Dent qui conserve une relique sacrée du Bouddha. Les plantations de thé de Nuwara Eliya, où des cueilleuses récoltent les feuilles à la main dans une brume perpétuelle, offrent des paysages d'une beauté mélancolique unique.
+
+Le Parc National de Yala propose les meilleures chances au monde d'observer le léopard à l'état sauvage. Mirissa est l'un des meilleurs endroits de la planète pour les baleines bleues (décembre-avril). Les plages de la côte sud (Mirissa, Tangalle, Unawatuna) rivalisent avec les Maldives pour la beauté des eaux.
+
+Conseils pratiques : Vols Paris-Colombo dès 350€ AR (SriLankan Airlines, Emirates). Meilleure saison côte ouest/sud : décembre-mars. Budget très accessible : 40 à 80€/jour confortablement. E-visa en ligne obligatoire (30€).`
   }
 ];
