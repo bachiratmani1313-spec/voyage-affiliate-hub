@@ -80,6 +80,9 @@ memory/test_credentials.md
 
 # Mobile development
 android-sdk/-e 
-# Environment files
-*.env
-*.env.*
+# Environment files — do NOT ignore base .env files (needed for deployment)
+# Only ignore local overrides
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
