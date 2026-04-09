@@ -23,7 +23,7 @@ Conseils pratiques : Réservez minimum 6 mois à l'avance pour les meilleures of
   },
   {
     id: "2", slug: "bali-ile-des-dieux",
-    title: "Bali : L'Île Mystique des Dieux Indonésiens",
+    title: "Bali : L'Île Mystique du Dieu Indonésiens",
     excerpt: "Entre rizières en terrasses, temples millénaires et plages paradisiaques, Bali séduit par sa spiritualité unique et sa beauté naturelle incomparable.",
     image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80",
     country: "Indonésie", capital: "Denpasar",
