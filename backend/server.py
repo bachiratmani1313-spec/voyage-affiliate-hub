@@ -73,7 +73,7 @@ BLOG_POSTS = [
     },
     {
         "id": "2", "slug": "bali-ile-des-dieux",
-        "title": "Bali : L'Île Mystique des Dieux Indonésiens",
+        "title": "Bali : L'Île Mystique du Dieu Indonésiens",
         "excerpt": "Entre rizières en terrasses, temples millénaires et plages paradisiaques, Bali séduit par sa spiritualité unique et sa beauté naturelle. Une destination qui mêle aventure, culture et douceur de vivre à l'indonésienne.",
         "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80",
         "country": "Indonésie", "capital": "Denpasar",
