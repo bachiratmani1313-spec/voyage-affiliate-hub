@@ -55,7 +55,7 @@ export default function ContactPage() {
           <div className="space-y-4">
             {[
               { icon: "fa-user-tie", title: "Propriétaire", value: "Atmani Bachir", sub: "Créateur de Vrax Voyage" },
-              { icon: "fa-envelope", title: "Email", value: "contact@vrax-voyage.com", sub: "Réponse sous 24h" },
+              { icon: "fa-envelope", title: "Email", value: "Pour toute demande, veuillez contacter le secrétariat à l’adresse suivante : bachiratmani1313@gmail.com", sub: "Réponse sous 24h" },
               { icon: "fa-globe", title: "Site", value: "vrax-voyage.com", sub: "Comparateur de voyages" },
             ].map((info) => (
               <div
